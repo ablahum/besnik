@@ -6,10 +6,12 @@
   <DealsComp />
 
   <HighlightsComp />
+
+  <TestimonialsComp />
 </template>
 
 <script>
-import { NavbarComp, HeaderComp, DealsComp, HighlightsComp } from './components'
+import { NavbarComp, HeaderComp, DealsComp, HighlightsComp, TestimonialsComp } from './components'
 
 export default {
   name: 'App',
@@ -18,6 +20,7 @@ export default {
     HeaderComp,
     DealsComp,
     HighlightsComp,
+    TestimonialsComp,
   },
 }
 </script>

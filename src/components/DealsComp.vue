@@ -1,10 +1,10 @@
 <template>
   <div class="sm:container mx-4 sm:mx-auto lg:py-14 py-12 flex items-start lg:items-center justify-between flex-col lg:flex-row">
     <div class="lg:mr-14 lg:mb-0 md:mb-8 mb-4 self-start sm:self-center">
-      <h2 class="font-bai font-bold text-[2rem] mb-4">
+      <h3 class="font-bai font-bold text-[2rem] mb-4">
         Hot 🔥 <br />
         deals for you
-      </h2>
+      </h3>
 
       <p class="font-roboto text-text">Online shopping for retail sales direct to consumers</p>
     </div>
