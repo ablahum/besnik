@@ -12,10 +12,12 @@
   <FeatureComp />
 
   <NewsletterComp />
+
+  <FooterComp />
 </template>
 
 <script>
-import { NavbarComp, HeaderComp, DealsComp, HighlightsComp, TestimonialsComp, FeatureComp, NewsletterComp } from './components'
+import { NavbarComp, HeaderComp, DealsComp, HighlightsComp, TestimonialsComp, FeatureComp, NewsletterComp, FooterComp } from './components'
 
 export default {
   name: 'App',
@@ -27,6 +29,7 @@ export default {
     TestimonialsComp,
     FeatureComp,
     NewsletterComp,
+    FooterComp,
   },
 }
 </script>
