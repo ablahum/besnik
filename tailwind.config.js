@@ -11,6 +11,7 @@ module.exports = {
         text: '#535354',
         shadow: 'rgba(206, 206, 206, 0.6)',
         highlight: '#52C0FF',
+        button: '#E15C19',
       },
     },
   },

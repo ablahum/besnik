@@ -7,7 +7,7 @@
       />
     </div>
 
-    <div class="lg:ml-12 mt-12">
+    <div class="lg:ml-12 ml-0 mt-12 lg:mt-0">
       <h2 class="font-bai font-bold text-5xl">Handoff your work smarter now</h2>
 
       <p class="text-text font-roboto mt-6">Create documentation for the collaborators (i.e. designers or devs) directly in your design file.</p>
@@ -16,7 +16,7 @@
         <div
           v-for="(item, i) in items"
           :key="i"
-          class="p-4 flex items-center"
+          class="flex items-center"
         >
           <div class="w-1/4">
             <img
@@ -26,8 +26,8 @@
             />
           </div>
 
-          <div class="ml-4 w-9/12">
-            <h3 class="font-bai font-bold">{{ item.title }}</h3>
+          <div class="w-9/12">
+            <h3 class="font-bai font-bold text-2xl">{{ item.title }}</h3>
 
             <p class="mt-4 font-roboto text-text">{{ item.subtitle }}</p>
           </div>
